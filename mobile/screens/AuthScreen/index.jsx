@@ -75,7 +75,7 @@ const AuthScreen = () => {
         return status + message
     }
 
-    const image = { uri: '../../public/images/background.jpg' }
+    const image = require('../../public/images/background.jpg')
 
     return (
         <SafeAreaView>
